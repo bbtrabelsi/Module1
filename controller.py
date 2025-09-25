@@ -77,7 +77,7 @@ class controller:
                 c_w = 1.0 * angle_error
             else:
                 # Facing goal → drive straight
-                c_v = 20.0  # forward speed (tune this)
+                c_v = 30.0
                 c_w = 0
 
             #c_v = 25  # randomly assigned c_v and c_w for demonstration purpose, remove for your lab!
